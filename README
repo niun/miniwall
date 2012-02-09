@@ -2,6 +2,8 @@ miniwall
 
 A minimalistic server-side twitterwall in html and javascript,
 using the twitter search api (https://dev.twitter.com/docs/api/1/get/search).
+Miniwall is configured to display tweets containing the hashtag #ACTA. You
+can change that by altering the variable SEARCH_STRING in miniwall.js.
 
 Version: 0.1
 Author:  Pascal Rosin
