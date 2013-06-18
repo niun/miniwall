@@ -15,7 +15,7 @@ function updateTweets() {
 
         // format the tweets as html
         // and prepend the received tweets to the list:
-        $.each(response.results, function(key, val) {
+        $.each(response.results.reverse(), function(key, val) {
             li = $('<li>').attr('id','tweet'+key).hide().css('opacity','0.0');
             li.append($('<img>').attr('src',val.profile_image_url).attr('alt',''));
             li.append($('<span>').attr('class','userName').html(val.from_user_name+': '));
