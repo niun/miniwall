@@ -1,17 +1,19 @@
-miniwall
+# miniwall
 
-A minimalistic server-side twitterwall in html and javascript,
-using the twitter search api (https://dev.twitter.com/docs/api/1/get/search).
-Miniwall is configured to display tweets containing the hashtag #ACTA. You
-can change that by altering the variable SEARCH_STRING in miniwall.js.
+A minimalistic twitterwall in html and javascript, using the [Twitter search api][API].
+Miniwall is configured to display tweets containing the hashtag #ACTA. You can change
+that by altering the variable `SEARCH_STRING` in [miniwall.js](miniwall.js).
 
-Version: 0.1
-Author:  Pascal Rosin
-Source:  https://github.com/niun/miniwall
+[API]: https://developer.twitter.com/en/docs/tweets/search/api-reference/get-search-tweets.html
+
+-   Version: 0.1
+-   Author:  Pascal Rosin
+-   Source:  https://github.com/niun/miniwall
 
 
-License:
+## License:
 
+```
 miniwall is free software: you can redistribute it and/or modify
 it under the terms of the GNU General Public License as published by
 the Free Software Foundation, either version 3 of the License, or
@@ -37,3 +39,4 @@ Siehe die GNU General Public License für weitere Details.
 
 Sie sollten eine Kopie der GNU General Public License zusammen mit diesem
 Programm erhalten haben. Wenn nicht, siehe <http://www.gnu.org/licenses/>.
+```
